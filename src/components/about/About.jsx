@@ -10,7 +10,7 @@ const About = () => {
         <h1>About Us</h1>
 
         <article>
-          <h4>MBA Burger Wala</h4>
+          <h4>BurgerBite Hub</h4>
           <p>
             We are MBA Burger Wala. The place for most tasty burgers on the
             enitre earth.
@@ -31,11 +31,11 @@ const About = () => {
           <article>
             <div>
               <img src={me} alt="Founder" />
-              <h3>Abhishek Singh</h3>
+              <h3>Pratiksha Gahile </h3>
             </div>
 
             <p>
-              I am Abhishek Singh, the founder of MBA Burger Wala. Affiliated to
+              I am Pratiksha Gahile, the founder of MBA Burger Wala. Affiliated to
               God Taste...
             </p>
           </article>

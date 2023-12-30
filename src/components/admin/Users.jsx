@@ -22,7 +22,7 @@ const Users = () => {
             {arr.map((i) => (
               <tr key={i}>
                 <td>#sdkfsdfdsf</td>
-                <td>Abhi</td>
+                <td>Pratiksha</td>
                 <td>
                   <img src={me} alt="User" />
                 </td>

@@ -1,35 +1,37 @@
-import React from "react";
-import { AiFillInstagram, AiFillYoutube, AiFillGithub } from "react-icons/ai";
+import React from "react"; 
+import {AiFillInstagram ,AiFillGithub,AiFillLinkedin} from "react-icons/ai";
+const Footer =()=>{
+return (
+    <footer> 
+        <div> 
+            <h2>MBA Burger Wala</h2> 
 
-const Footer = () => {
-  return (
-    <footer>
-      <div>
-        <h2>MBA Burger Wala</h2>
+            <p> we Are trying to view the best taste possible . </p> 
+            <br/> 
 
-        <p>We are trying to give you the best taste possible.</p>
-        <br />
+            <em> We give the attension to genuine feedback . </em>
 
-        <em>We give attention to genuine feedback.</em>
+            <strong> All right recevied @mbaburgerwala </strong>
+        </div> 
+        <aside> 
+            <h4>Follw us </h4>  
 
-        <strong>All right received @mbaburgerwala</strong>
-      </div>
+            <a href=" https://www.instagram.com/pratu_gahile/"> 
+            <AiFillInstagram/>
+            </a> 
 
-      <aside>
-        <h4>Follow Us</h4>
+            <a href="https://github.com/PratikshaGahile "> 
+            <AiFillGithub/>   
+            </a> 
+            
+            <a href=" https://www.linkedin.com/feed/">
+            <AiFillLinkedin/>
+            </a> 
 
-        <a href="https://youtube.com/6packprogrammer">
-          <AiFillYoutube />
-        </a>
-        <a href="https://instagram.com/meabhisingh">
-          <AiFillInstagram />
-        </a>
-        <a href="https://github.com/meabhisingh">
-          <AiFillGithub />
-        </a>
-      </aside>
+
+        </aside>
     </footer>
-  );
-};
+);
 
-export default Footer;
+}
+export default  Footer; 
