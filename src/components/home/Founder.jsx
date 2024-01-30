@@ -20,7 +20,7 @@ const Founder = () => {
         <h3>Pratiksha Gahile</h3>
 
         <p>
-          Hey, Everyone I am Pratiksha Gahile, the founder of MBA Burger Wala.
+          Hey, Everyone I am Pratiksha Gahile, the founder of Burger Bite Hub.
           <br />
           Our aim is to create the most tasty burger on planet.
         </p>
